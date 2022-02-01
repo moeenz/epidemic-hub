@@ -1,0 +1,13 @@
+.git/
+.gitlab/
+.github/
+build/
+dist/
+deploy/
+.gitignore
+.dockerignore
+*.md
+*.pyc
+LICENSE
+Makefile
+docker-compose.*

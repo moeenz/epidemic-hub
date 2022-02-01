@@ -1,0 +1,19 @@
+# This compose file contains service dependencies for development.
+
+version: '3.9'
+
+networks:
+  epidemic-dev-net:
+    name: epidemic-dev-net
+
+services:
+  db:
+    image: bitnami/postgresql:14.1.0
+    environment:
+      - POSTGRESQL_USERNAME=admin
+      - POSTGRESQL_PASSWORD=admin
+      - POSTGRESQL_DATABASE=epidemic
+    ports:
+      - '5432:5432'
+    networks:
+      - epidemic-dev-net

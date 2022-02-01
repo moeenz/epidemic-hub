@@ -1,0 +1,46 @@
+version: '3.9'
+
+networks:
+  epidemic-net:
+    name: epidemic-net
+
+services:
+  db:
+    image: bitnami/postgresql:14.1.0
+    environment:
+      - POSTGRESQL_USERNAME=admin
+      - POSTGRESQL_PASSWORD=admin
+      - POSTGRESQL_DATABASE=epidemic
+    ports:
+      - '5432:5432'
+    networks:
+      - epidemic-net
+
+  api:
+    build: ./api/.
+    command: >
+      sh -c  "/wait db:5432 &&
+              python manage.py migrate &&
+              python manage.py runserver 0.0.0.0:8000"
+    environment:
+      WAIT_HOSTS: db:5432
+      WAIT_TIMEOUT: 60
+      DB_CONN_STR: postgres://admin:admin@db:5432/epidemic
+    ports:
+      - '8000:8000'
+    networks:
+      - epidemic-net
+    depends_on:
+      - db
+
+  frontend:
+    build: ./frontend/.
+    command: yarn start
+    environment:
+      - API_BASE_URL=http://api:8000
+    ports:
+      - '3000:3000'
+    networks:
+      - epidemic-net
+    depends_on:
+      - api

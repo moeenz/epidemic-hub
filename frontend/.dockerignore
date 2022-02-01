@@ -1,0 +1,12 @@
+.git/
+.gitlab/
+.github/
+.gitignore
+.dockerignore
+*.md
+*.pyc
+LICENSE
+Makefile
+docker-compose.*
+node_modules/
+npm-debug.log

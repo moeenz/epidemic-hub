@@ -1,0 +1,1908 @@
+[
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add artist",
+            "content_type": 7,
+            "codename": "add_artist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change artist",
+            "content_type": 7,
+            "codename": "change_artist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete artist",
+            "content_type": 7,
+            "codename": "delete_artist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view artist",
+            "content_type": 7,
+            "codename": "view_artist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add genre",
+            "content_type": 8,
+            "codename": "add_genre"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change genre",
+            "content_type": 8,
+            "codename": "change_genre"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete genre",
+            "content_type": 8,
+            "codename": "delete_genre"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view genre",
+            "content_type": 8,
+            "codename": "view_genre"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add mood",
+            "content_type": 9,
+            "codename": "add_mood"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change mood",
+            "content_type": 9,
+            "codename": "change_mood"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete mood",
+            "content_type": 9,
+            "codename": "delete_mood"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view mood",
+            "content_type": 9,
+            "codename": "view_mood"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add playlist",
+            "content_type": 10,
+            "codename": "add_playlist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change playlist",
+            "content_type": 10,
+            "codename": "change_playlist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete playlist",
+            "content_type": 10,
+            "codename": "delete_playlist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view playlist",
+            "content_type": 10,
+            "codename": "view_playlist"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add track",
+            "content_type": 11,
+            "codename": "add_track"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change track",
+            "content_type": 11,
+            "codename": "change_track"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete track",
+            "content_type": 11,
+            "codename": "delete_track"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view track",
+            "content_type": 11,
+            "codename": "view_track"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add playlist track",
+            "content_type": 12,
+            "codename": "add_playlisttrack"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change playlist track",
+            "content_type": 12,
+            "codename": "change_playlisttrack"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete playlist track",
+            "content_type": 12,
+            "codename": "delete_playlisttrack"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view playlist track",
+            "content_type": 12,
+            "codename": "view_playlisttrack"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "tracks",
+            "model": "artist"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "tracks",
+            "model": "genre"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "tracks",
+            "model": "mood"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 10,
+        "fields": {
+            "app_label": "tracks",
+            "model": "playlist"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 11,
+        "fields": {
+            "app_label": "tracks",
+            "model": "track"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 12,
+        "fields": {
+            "app_label": "tracks",
+            "model": "playlisttrack"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 1,
+        "fields": {
+            "name": "Tilden Parc"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 2,
+        "fields": {
+            "name": "Lawd Ito"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 3,
+        "fields": {
+            "name": "Elin Sandberg"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 4,
+        "fields": {
+            "name": "Christine Smit"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 5,
+        "fields": {
+            "name": "Timothy Infinite"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 6,
+        "fields": {
+            "name": "Neon One"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 7,
+        "fields": {
+            "name": "Adelyn Paik"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 8,
+        "fields": {
+            "name": "Duke Herrington"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 9,
+        "fields": {
+            "name": "Rannar Sillard"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 10,
+        "fields": {
+            "name": "Alex Kehm"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 11,
+        "fields": {
+            "name": "Tyra Chantey"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 12,
+        "fields": {
+            "name": "Maybe"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 13,
+        "fields": {
+            "name": "Adelyn Paik"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 14,
+        "fields": {
+            "name": "Sum Wave"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 15,
+        "fields": {
+            "name": "Damma Beatz"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 16,
+        "fields": {
+            "name": "Torii Wolf"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 17,
+        "fields": {
+            "name": "SOOP"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 18,
+        "fields": {
+            "name": "Martin Hall"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 19,
+        "fields": {
+            "name": "STRLGHT"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 20,
+        "fields": {
+            "name": "Dylan Sitts"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 21,
+        "fields": {
+            "name": "Megan Wofford"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 22,
+        "fields": {
+            "name": "Smartface"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 23,
+        "fields": {
+            "name": "Christoffer Moe Ditlevsen"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 24,
+        "fields": {
+            "name": "ELFL"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 25,
+        "fields": {
+            "name": "Heyson"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 26,
+        "fields": {
+            "name": "Ooyy"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 27,
+        "fields": {
+            "name": "Le June"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 28,
+        "fields": {
+            "name": "Northside"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 29,
+        "fields": {
+            "name": "Trevor Kowalski"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 30,
+        "fields": {
+            "name": "Tape Machines"
+        }
+    },
+    {
+        "model": "tracks.artist",
+        "pk": 31,
+        "fields": {
+            "name": "Sam Shore"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 1,
+        "fields": {
+            "name": "Mainstream Hip Hop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 2,
+        "fields": {
+            "name": "Modern Latin"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 3,
+        "fields": {
+            "name": "Indie Pop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 4,
+        "fields": {
+            "name": "Alternative Hip Hop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 5,
+        "fields": {
+            "name": "Dance"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 6,
+        "fields": {
+            "name": "K-pop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 7,
+        "fields": {
+            "name": "Funk"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 8,
+        "fields": {
+            "name": "Build"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 9,
+        "fields": {
+            "name": "Indie Pop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 10,
+        "fields": {
+            "name": "RnB"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 11,
+        "fields": {
+            "name": "2020s Pop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 12,
+        "fields": {
+            "name": "K-pop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 13,
+        "fields": {
+            "name": "Soft House"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 14,
+        "fields": {
+            "name": "Trap"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 15,
+        "fields": {
+            "name": "Indie Pop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 16,
+        "fields": {
+            "name": "2020s Pop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 17,
+        "fields": {
+            "name": "Electro"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 18,
+        "fields": {
+            "name": "Indie Pop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 19,
+        "fields": {
+            "name": "Future Bass"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 20,
+        "fields": {
+            "name": "Beats"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 21,
+        "fields": {
+            "name": "Alternative Hip Hop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 22,
+        "fields": {
+            "name": "Alternative"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 23,
+        "fields": {
+            "name": "Synth Pop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 24,
+        "fields": {
+            "name": "Beats"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 25,
+        "fields": {
+            "name": "2020s Pop"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 26,
+        "fields": {
+            "name": "Folk"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 27,
+        "fields": {
+            "name": "Small Drama"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 28,
+        "fields": {
+            "name": "Soft House"
+        }
+    },
+    {
+        "model": "tracks.genre",
+        "pk": 29,
+        "fields": {
+            "name": "Alternative"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 1,
+        "fields": {
+            "name": "Dark"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 2,
+        "fields": {
+            "name": "Restless"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 3,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 4,
+        "fields": {
+            "name": "Restless"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 5,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 6,
+        "fields": {
+            "name": "Hopeful"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 7,
+        "fields": {
+            "name": "Funny"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 8,
+        "fields": {
+            "name": "Laid Back"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 9,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 10,
+        "fields": {
+            "name": "Running"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 11,
+        "fields": {
+            "name": "Romantic"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 12,
+        "fields": {
+            "name": "Laid Back"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 13,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 14,
+        "fields": {
+            "name": "Restless"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 15,
+        "fields": {
+            "name": "Dreamy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 16,
+        "fields": {
+            "name": "Floating"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 17,
+        "fields": {
+            "name": "Hopeful"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 18,
+        "fields": {
+            "name": "Sentimental"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 19,
+        "fields": {
+            "name": "Hopeful"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 20,
+        "fields": {
+            "name": "Laid Back"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 21,
+        "fields": {
+            "name": "Sad"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 22,
+        "fields": {
+            "name": "Restless"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 23,
+        "fields": {
+            "name": "Relaxing"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 24,
+        "fields": {
+            "name": "Laid Back"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 25,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 26,
+        "fields": {
+            "name": "Laid Back"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 27,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 28,
+        "fields": {
+            "name": "Restless"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 29,
+        "fields": {
+            "name": "Dark"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 30,
+        "fields": {
+            "name": "Mysterious"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 31,
+        "fields": {
+            "name": "Hopeful"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 32,
+        "fields": {
+            "name": "Restless"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 33,
+        "fields": {
+            "name": "Laid Back"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 34,
+        "fields": {
+            "name": "Sentimental"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 35,
+        "fields": {
+            "name": "Epic"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 36,
+        "fields": {
+            "name": "Hopeful"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 37,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 38,
+        "fields": {
+            "name": "Restless"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 39,
+        "fields": {
+            "name": "Relaxing"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 40,
+        "fields": {
+            "name": "Dreamy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 41,
+        "fields": {
+            "name": "Epic"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 42,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 43,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 44,
+        "fields": {
+            "name": "Eccentric"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 45,
+        "fields": {
+            "name": "Dark"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 46,
+        "fields": {
+            "name": "Heavy & Ponderous"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 47,
+        "fields": {
+            "name": "Romantic"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 48,
+        "fields": {
+            "name": "Hopeful"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 49,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 50,
+        "fields": {
+            "name": "Laid Back"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 51,
+        "fields": {
+            "name": "Sentimental"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 52,
+        "fields": {
+            "name": "Peaceful"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 53,
+        "fields": {
+            "name": "Happy"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 54,
+        "fields": {
+            "name": "Hopeful"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 55,
+        "fields": {
+            "name": "Epic"
+        }
+    },
+    {
+        "model": "tracks.mood",
+        "pk": 56,
+        "fields": {
+            "name": "Hopeful"
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "0dQiJavYYb",
+        "fields": {
+            "title": "Hellonelia",
+            "length": 208,
+            "bpm": 0,
+            "genres": [
+                18
+            ],
+            "moods": [
+                33,
+                34
+            ],
+            "main_artists": [
+                18
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "8Z4PScTrns",
+        "fields": {
+            "title": "Stocked",
+            "length": 172,
+            "bpm": 172,
+            "genres": [
+                14
+            ],
+            "moods": [
+                27,
+                28
+            ],
+            "main_artists": [
+                15
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "b1Oq8Scoei",
+        "fields": {
+            "title": "Present",
+            "length": 237,
+            "bpm": 63,
+            "genres": [
+                6
+            ],
+            "moods": [
+                11,
+                12
+            ],
+            "main_artists": [
+                7
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "CNl5uZ2W8p",
+        "fields": {
+            "title": "Grasp of Freedom",
+            "length": 176,
+            "bpm": 110,
+            "genres": [
+                22
+            ],
+            "moods": [
+                41,
+                42
+            ],
+            "main_artists": [
+                23
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "em55KruCAt",
+        "fields": {
+            "title": "Where the Sunflowers Bloom",
+            "length": 194,
+            "bpm": 114,
+            "genres": [
+                3
+            ],
+            "moods": [
+                5,
+                6
+            ],
+            "main_artists": [
+                3
+            ],
+            "featured_artists": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "FAweBkmanc",
+        "fields": {
+            "title": "Just Wanna Come Alive",
+            "length": 189,
+            "bpm": 119,
+            "genres": [
+                17
+            ],
+            "moods": [
+                31,
+                32
+            ],
+            "main_artists": [
+                17
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "FKYVlOXV8Q",
+        "fields": {
+            "title": "Slum Village",
+            "length": 166,
+            "bpm": 148,
+            "genres": [
+                1
+            ],
+            "moods": [
+                1,
+                2
+            ],
+            "main_artists": [
+                1
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "fPrLldgeZy",
+        "fields": {
+            "title": "Sharir",
+            "length": 220,
+            "bpm": 105,
+            "genres": [
+                24
+            ],
+            "moods": [
+                45,
+                46
+            ],
+            "main_artists": [
+                25
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "goZoPFXuBX",
+        "fields": {
+            "title": "Where Do We Go",
+            "length": 205,
+            "bpm": 145,
+            "genres": [
+                19
+            ],
+            "moods": [
+                35,
+                36
+            ],
+            "main_artists": [
+                19
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "h7dyRs7SRh",
+        "fields": {
+            "title": "Lantern Room",
+            "length": 269,
+            "bpm": 80,
+            "genres": [
+                15,
+                16
+            ],
+            "moods": [
+                29,
+                30
+            ],
+            "main_artists": [
+                16
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "IFZpDGwLZD",
+        "fields": {
+            "title": "Give Me Meaning or Let Me Go",
+            "length": 160,
+            "bpm": 125,
+            "genres": [
+                5
+            ],
+            "moods": [
+                9,
+                10
+            ],
+            "main_artists": [
+                6
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "iUFrtFTU1d",
+        "fields": {
+            "title": "Evergreen Fields",
+            "length": 194,
+            "bpm": 118,
+            "genres": [
+                28
+            ],
+            "moods": [
+                53,
+                54
+            ],
+            "main_artists": [
+                30
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "kro43exp2T",
+        "fields": {
+            "title": "Expectations",
+            "length": 137,
+            "bpm": 120,
+            "genres": [
+                20
+            ],
+            "moods": [
+                37,
+                38
+            ],
+            "main_artists": [
+                20,
+                21
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "mHljHNA7ei",
+        "fields": {
+            "title": "Second Wind",
+            "length": 245,
+            "bpm": 135,
+            "genres": [
+                26
+            ],
+            "moods": [
+                49,
+                50
+            ],
+            "main_artists": [
+                28
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "mX542l3F2Q",
+        "fields": {
+            "title": "Peacoat",
+            "length": 139,
+            "bpm": 142,
+            "genres": [
+                4
+            ],
+            "moods": [
+                7,
+                8
+            ],
+            "main_artists": [
+                5
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "OG1Wx1JMlm",
+        "fields": {
+            "title": "Stay in the Moment",
+            "length": 153,
+            "bpm": 96,
+            "genres": [
+                10
+            ],
+            "moods": [
+                19,
+                20
+            ],
+            "main_artists": [
+                11
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "qiIMEnJzQy",
+        "fields": {
+            "title": "Rise from the Ashes",
+            "length": 194,
+            "bpm": 125,
+            "genres": [
+                29
+            ],
+            "moods": [
+                55,
+                56
+            ],
+            "main_artists": [
+                31
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "QnBAVToyin",
+        "fields": {
+            "title": "Damned if We Do",
+            "length": 219,
+            "bpm": 120,
+            "genres": [
+                11
+            ],
+            "moods": [
+                21,
+                22
+            ],
+            "main_artists": [
+                12
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "rQMxJJ48DR",
+        "fields": {
+            "title": "Backyard Stories",
+            "length": 186,
+            "bpm": 110,
+            "genres": [
+                13
+            ],
+            "moods": [
+                25,
+                26
+            ],
+            "main_artists": [
+                14
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "Ru3QrB13Uf",
+        "fields": {
+            "title": "Hues",
+            "length": 163,
+            "bpm": 2,
+            "genres": [
+                8
+            ],
+            "moods": [
+                15,
+                16
+            ],
+            "main_artists": [
+                9
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "RZQbWVB8XQ",
+        "fields": {
+            "title": "Maiden Voyage",
+            "length": 245,
+            "bpm": 108,
+            "genres": [
+                7
+            ],
+            "moods": [
+                13,
+                14
+            ],
+            "main_artists": [
+                8
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "tpjO3VkNTl",
+        "fields": {
+            "title": "Springbreak",
+            "length": 193,
+            "bpm": 102,
+            "genres": [
+                25
+            ],
+            "moods": [
+                47,
+                48
+            ],
+            "main_artists": [
+                26
+            ],
+            "featured_artists": [
+                27
+            ]
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "uBOnwqZNMR",
+        "fields": {
+            "title": "Arcade Romance",
+            "length": 183,
+            "bpm": 108,
+            "genres": [
+                23
+            ],
+            "moods": [
+                43,
+                44
+            ],
+            "main_artists": [
+                24
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "Uec7QGEctL",
+        "fields": {
+            "title": "Sorry",
+            "length": 145,
+            "bpm": 110,
+            "genres": [
+                9
+            ],
+            "moods": [
+                17,
+                18
+            ],
+            "main_artists": [
+                10
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "UPqCIaibNA",
+        "fields": {
+            "title": "Snow Flower",
+            "length": 208,
+            "bpm": 80,
+            "genres": [
+                12
+            ],
+            "moods": [
+                23,
+                24
+            ],
+            "main_artists": [
+                13
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "wisy1XipVR",
+        "fields": {
+            "title": "We Had Ramen",
+            "length": 168,
+            "bpm": 85,
+            "genres": [
+                21
+            ],
+            "moods": [
+                39,
+                40
+            ],
+            "main_artists": [
+                22
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "x99FkOzKm1",
+        "fields": {
+            "title": "The Forest Grand",
+            "length": 162,
+            "bpm": 105,
+            "genres": [
+                27
+            ],
+            "moods": [
+                51,
+                52
+            ],
+            "main_artists": [
+                29
+            ],
+            "featured_artists": []
+        }
+    },
+    {
+        "model": "tracks.track",
+        "pk": "ZkuGOyOiiE",
+        "fields": {
+            "title": "Se Acabó",
+            "length": 168,
+            "bpm": 98,
+            "genres": [
+                2
+            ],
+            "moods": [
+                3,
+                4
+            ],
+            "main_artists": [
+                2
+            ],
+            "featured_artists": []
+        }
+    }
+]
