@@ -16,6 +16,10 @@ docker-compose up
 
 Now you can reach the frontend at `http://localhost:3000`. You can also browse the REST API at `http://localhost:8000`.
 
+### M1 MacBook libpq Issue
+
+If you are on an M1 MacBook and faced the `django.db.utils.OperationalError: SCRAM authentication requires libpq version 10 or above` error, please visit this StackOverflow [answer](https://stackoverflow.com/a/70238851).
+
 ## Development and Testing
 
 For development you'll need a Python version `3.9.10` virtualenv and [Poetry](https://python-poetry.org/docs/) installed.You could also use the virtualenv provided by Poetry. First, change directory to `api` and bring up the dev dependencies using Docker:
